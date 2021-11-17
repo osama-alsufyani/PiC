@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner-img {
+  /* background-image: url("https://images.unsplash.com/photo-1612868921892-93882ddfc22d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80"); */
+  background-image: url("https://images.unsplash.com/photo-1516946870798-f970a32afc8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  background-size: contain;
+  background-position: center;
+  background-size: cover;
+}
+
+.card {
+  background-color: rgb(214, 214, 214);
+}
+.price {
+  text-align: center;
+}
+.title {
+  text-align: center;
+  color: black;
+}
+.click {
+  color: #000000;
+  text-decoration: none;
+}
+
+.card-item input {
+  height: 45px;
+  width: 110px;
+  background: none;
+  color: #000;
+  border-radius: 5;
+  font-family: "Trebuchet MS", sans-serif;
+  border: 2px solid #000;
+}
+nav.active {
+  background: rgb(43 43 43);
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 2092px;
+  }
+}
+
+.py-5 {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+.line {
+  height: 5px;
+  background: rgb(36, 36, 36);
+  width: 4%;
+  margin: auto;
+}
+
+.navbar {
+  background-color: rgba(red, green, blue, alpha);
+}
+.line-2 {
+  height: 2px;
+  background: rgb(231, 189, 125);
+  width: 5vh;
+}
+
+.text {
+  color: rgb(231, 189, 125);
+}
+.fa-shopping-cart:before {
+  margin-right: 15px;
+}
